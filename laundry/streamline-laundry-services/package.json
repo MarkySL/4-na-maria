@@ -1,0 +1,23 @@
+{
+  "name": "streamline-laundry-services",
+  "version": "1.0.0",
+  "description": "An online booking system for Streamline Laundry Services.",
+  "main": "src/js/main.js",
+  "scripts": {
+    "start": "live-server src/pages",
+    "build": "echo 'Build process not defined yet.'"
+  },
+  "keywords": [
+    "laundry",
+    "booking",
+    "services"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

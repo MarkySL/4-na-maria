@@ -1,0 +1,196 @@
+/*===========GOOGLE FONTS=============*/
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/*============= Global CSS ===============*/
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #ffb700;
+}
+
+header {
+    background: #00184c;
+    color: hwb(58 0% 2%);
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+form {
+    background: #3674B5; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background: hsla(210, 100%, 3%, 0.263);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background: hsl(211, 94%, 6%);
+}
+
+.invoice {
+    background: #00184c;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #ffb700;
+}
+
+.invoice h2 {
+    margin-top: 0;
+}
+
+.payment {
+    background: #00184c;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #ffb700;
+    margin-top: 20px;
+}
+
+.payment h2 {
+    margin-top: 0;
+}
+
+.payment input[type="text"],
+.payment input[type="number"],
+.payment input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ffb700;
+    border-radius: 5px;
+}
+
+.payment input[type="submit"] {
+    background: #ffb700;
+    color: #00184c;
+    border: none;
+    cursor: pointer;
+}
+
+.payment input[type="submit"]:hover {
+    background: #e6a700;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ffb700;
+    padding: 10px;
+    text-align: left;
+}
+
+.table th {
+    background: #ffb700;
+}
+
+.reg_btn{
+    width: 10%;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500; 
+}
+
+.login_btn{
+    width: 10%;
+    height: 45px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500;
+    margin-bottom: 10px; 
+}
+
+.book_btn{
+    width: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500; 
+}
+
+.time_btn{
+    width: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500; 
+}
+
+.forgot_btn{
+    width: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500; 
+}
+
+.rst_btn{
+    width: 10%;
+    height: 30px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #162938;
+    font-weight: 500; 
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+}
